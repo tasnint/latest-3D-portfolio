@@ -40,18 +40,20 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[17px] leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Currently pursuing Software and Biomedical Engineering at McMaster University, I strive to
+        blend my academic learning with real-world applications. My technical skillset encompasses
+        full stack development, machine learning, and object oriented programming. With experience 
+        working across diverse technical teams, I bring a collaborative approach to each project, 
+        aspiring to translate complex ideas into accessible solutions. Some of my favorite projects, 
+        both past and present, include a Malaria Detection Model using Convolutional Neural Networks, 
+        MyHealth — a comprehensive full-stack application I'm currently developing, and the very website
+        you're viewing now.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
