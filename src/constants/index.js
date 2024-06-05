@@ -25,6 +25,26 @@ import {
   threejs,
 } from "../assets";
 
+
+import brain from '../assets/brain.png';
+import gear from '../assets/gear.png';
+import tube from '../assets/tube.png';
+import stack from '../assets/stack.png';
+import tf from '../assets/tf.png';
+import python from '../assets/python.png';
+import C from '../assets/C++.png';
+import malaria from '../assets/malaria.png';
+import conway from '../assets/conway.png';
+import url from '../assets/url.png';
+import fsm from '../assets/fsm.png';
+import maze from '../assets/maze.png';
+import molecule from '../assets/molecule.png';
+import gel from '../assets/gel.png';
+import pcr from '../assets/PCR.png';
+import spectrophotometry from '../assets/spectrophotometry.png';
+import progress from '../assets/progress.png';
+
+
 export const navLinks = [
   {
     id: "about",
@@ -32,7 +52,7 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Experience",
   },
   {
     id: "contact",
@@ -42,36 +62,38 @@ export const navLinks = [
 
 const services = [
   {
+    title: "Full Stack Development",
+    icon: stack,
+  },
+  {
     title: "Machine Learning",
-    icon: web,
+    icon: brain,
+    iconStyle: { width: '70px', height: '70px' }
   },
   {
-    title: "Full Stack Developer",
-    icon: mobile,
+    title: "OOP",
+    icon: gear,
+    iconStyle: { width: '60px', height: '60px' }
   },
   {
-    title: "Laboratory Experience : Genetic Engineering & Cell Biology",
-    icon: backend,
-  },
-  {
-    title: "Object Oriented Programming",
-    icon: creator,
+    title: "Laboratory Experience",
+    icon: tube,
+    iconStyle: { width: '86px', height: '86px' }
   },
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
+
   {
     name: "JavaScript",
     icon: javascript,
   },
+
+  {
+    name: "TensorFlow",
+    icon:tf,
+  },
+
   {
     name: "TypeScript",
     icon: typescript,
@@ -112,154 +134,247 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+
+  {
+    name: "python",
+    icon: python,
+  },
+
+  {
+    name: "C++",
+    icon: C,
+  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Software Developer Intern",
+    company_name: "Monarch Mart",
+    date: "May 2024 - present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Audited the UI across all digital platforms, and streamlined corresponding front-end code which is projected to speed up customer checkout times by 20 percent",
+      "Collaborated with cross-functional teams to contribute to the development and integration of an AI-powered live customer service chatbot"
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Algorithms Designer",
+    company_name: "Battery Workforce Challenge",
+
+    date: "October 2023 - present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led the development of several algorithms for precise estimation of battery feature statuses, that are now used in production by over 20+ systems",
+      "Modeled and simulated equivalent circuit models in MATLAB Simulink",
+      "Utilized SQL to visualize and model extensive datasets, integrating these insights into algorithms to predict future values of quantifiable battery characteristics, such as State of Charge",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Connected and Automated Vehicles Simulator",
+    company_name: "McMaster ECOCAR",
+    date: "September 2022 - April 2023",
+    points: [
+      "Acquired sensor data from simulated vehicle test cases in MATLAB, which was then modelled and visualized to create comprehensive reports",
+      "Implemented new features based on reports to improve responsiveness and optimize the existing model's design",
+      "Collaborated with cross-functional teams, including designers, product managers, and developers, to ensure the high quality and timely delivery of project deliverables",
+      "Participated in design reviews and providing constructive feedback to other developers",
+    ],
+  },
+  {
+    title: "Research Team Member",
+    company_name: "MacChangers",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "September 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Authored an extensive paper on rapid testing and peer support surrounding HIV and syphilis, collaborating with a multidisciplinary team",
+      "Proposed solutions to promote STBBI testing among higher-risk populations given clinic closures and potential limitations in lab capacity",
+      "Assessed the feasibility of the solution using a human-centered design approach, evaluating the target populations, desired outcomes, and potential barriers",
     ],
   },
+
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Staff Member",
+    company_name: "Awareness 360",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "September 2021 - July 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Assisted with the onboarding process of the internship program, mentoring interns and preparing performance reports",
+      "Audited the organization's social reach and implemented strategic improvements that enhanced audience engagement and interaction by 20%",
+      "Led weekly meetings and hosted virtual events featuring speakers and global figures discussing social and international issues",
     ],
   },
+
+
+
+ 
+
+
+
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Cloning of a copper-detecting gene system, incorporating the pCusC promoter sequence into an asPink-promoterless plasmid for E. coli, enabling colorimetric copper ion detection.",
+    name: "Molecular Cloning",
+    designation: "",
+    company: "",
+    image: molecule,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Use of gel electrophoresis for the separation of DNA fragments by size, confirming successful cloning through distinctive band patterns of pCusAsPink and asPink-promoterless plasmids. ",
+    name: "Gel Electrophoresis",
+    image: gel,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Amplification of DNA insert containing gene of interest and promoter sequences followed by insertion of amplified sequences into vector plasmid.",
+    name: "PCR",
+    image: pcr,
   },
+
+  {
+    testimonial:
+    "Use of Spectrophotometry to measure absorbance at 572 nm to quantify protein concentration, and analyze light absorption for assessing asPink protein expression in copper ion detection.",
+    name: "Spectro- photometry",
+    image: spectrophotometry,
+  }
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Malaria Detection",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A Convolutional Neural Network that can classify blood cells as either uninfected or parasitized by plasmodium, succesfully detecting the presence of malaria.",
     tags: [
       {
-        name: "react",
+        name: "tensorflow",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "python",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "matplotlib",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: malaria,
+    source_code_link: "https://github.com/tasnint/Malaria-Diagnosis",
   },
   {
-    name: "Job IT",
+    name: "Conway's Game of Life",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A real-time interactive simulation of Conways Game of Life using C++ and the raylib graphics library. Implements state toggling and simulation speed adjustments.",
     tags: [
       {
-        name: "react",
+        name: "c++",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "raylib",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "oop",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: conway,
+    source_code_link: "https://github.com/tasnint/Game-Of-Life",
   },
   {
-    name: "Trip Guide",
+    name: "URL Content Processor",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A web application that uses LangChain and OpenAI API to process text from URLs for dynamic question answering, improving efficiency of information retrieval tasks.",
     tags: [
       {
-        name: "nextjs",
+        name: "langchain",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "nlp",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "openai api",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: url,
+    source_code_link: "https://github.com/tasnint/URL-Content-Processor",
   },
+
+  {
+    name: "Combination Lock",
+    description:
+      "A Moore FSM programmed in Verilog that functions as a digital combination lock and uses a hex display and altera board to demonstrate functionality.",
+    tags: [
+      {
+        name: "verilog",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "alteraboard",
+        color: "green-text-gradient",
+      },
+      {
+        name: "hexdisplay",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: fsm,
+    source_code_link: "https://github.com/tasnint/combination-lock-verilog",
+  },
+
+
+  {
+    name: "Maze Runner",
+    description:
+      "A Java program implementing Dijkstra's and A* algorithm that generates or verifies a path from the entry to exit of a maze in the form of a text file. ",
+    tags: [
+      {
+        name: "java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "maze",
+        color: "green-text-gradient",
+      },
+      {
+        name: "algorithm",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: maze,
+    source_code_link: "https://github.com/tasnint/maze_runner",
+  },
+
+  {
+    name: "MyHealth App",
+    description:
+      "A cross platform full-stack menstrual and sexual health application to track cycles, with extensive educational and locally accessible resources for contraceptives and pregnancy.",
+    tags: [
+      {
+        name: "reactnative",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: progress,
+    source_code_link: "https://github.com/tasnint/health",
+  },
+
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };

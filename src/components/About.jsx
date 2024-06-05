@@ -7,7 +7,7 @@ import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const ServiceCard = ({ index, title, icon }) => (
+const ServiceCard = ({ index, title, icon, iconStyle = { width: '50px', height: '50px'} }) => (
   <Tilt className='xs:w-[250px] w-full'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
@@ -24,7 +24,9 @@ const ServiceCard = ({ index, title, icon }) => (
         <img
           src={icon}
           alt='web-development'
+          style = {iconStyle || { width: '50px', height: '50px' }}
           className='w-16 h-16 object-contain'
+          
         />
 
         <h3 className='text-white text-[20px] font-bold text-center'>
@@ -53,7 +55,8 @@ const About = () => {
         aspiring to translate complex ideas into accessible solutions. Some of my favorite projects, 
         both past and present, include a Malaria Detection Model using Convolutional Neural Networks, 
         MyHealth — a comprehensive full-stack application I'm currently developing, and the very website
-        you're viewing now.
+        you're viewing now. To learn more, continue scrolling or view my <a href="/latest_resume.pdf" target="_blank" style={{ color: '#8F00FF', fontWeight:'bold' }}>resume </a> 
+         for a concise summary of my experiences.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
