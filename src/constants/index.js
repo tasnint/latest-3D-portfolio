@@ -162,7 +162,7 @@ const experiences = [
 
     date: "October 2023 - present",
     points: [
-      "Led the development of several algorithms for precise estimation of battery feature statuses, that are now used in production by over 20+ systems",
+      "Led the development of several algorithms for precise estimation of battery feature statuses, that are now used in production by over 10 different systems",
       "Modeled and simulated equivalent circuit models in MATLAB Simulink",
       "Utilized SQL to visualize and model extensive datasets, integrating these insights into algorithms to predict future values of quantifiable battery characteristics, such as State of Charge",
     ],
@@ -198,8 +198,8 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "September 2021 - July 2022",
     points: [
-      "Assisted with the onboarding process of the internship program, mentoring interns and preparing performance reports",
-      "Audited the organization's social reach and implemented strategic improvements that enhanced audience engagement and interaction by 20%",
+      "Assisted with the onboarding process of the internship program, mentoring a team of 15 interns and preparing performance reports",
+      "Audited the organization's social reach and implemented strategic improvements that enhanced audience engagement and interaction by 7%",
       "Led weekly meetings and hosted virtual events featuring speakers and global figures discussing social and international issues",
     ],
   },
