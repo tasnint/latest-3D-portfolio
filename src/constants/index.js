@@ -153,7 +153,8 @@ const experiences = [
     date: "May 2024 - present",
     points: [
       "Audited the UI across all digital platforms, and streamlined corresponding front-end code which is projected to speed up customer checkout times by 20 percent",
-      "Collaborated with cross-functional teams to contribute to the development and integration of an AI-powered live customer service chatbot"
+      "Collaborated with cross-functional teams to contribute to the development and integration of an AI-powered live customer service chatbot",
+      "Worked on the automation of database and server processes for efficient back-end management of purchase orders",
     ],
   },
   {
